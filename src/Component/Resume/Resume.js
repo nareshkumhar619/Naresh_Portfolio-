@@ -5,10 +5,10 @@ import Particles from "../Particles"
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import NareshR from "../../Assets/NareshR.pdf";
+import Nresume from "../../Assets/Nresume.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resume = NareshR;
+const resume = Nresume;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -28,11 +28,7 @@ function ResumeNew() {
           }}
         >
   </div>
-        <Container className="resume">
-          <h3>Click on Download To Get My Resume</h3>
-        </Container>
-
-        <div
+       <div
           style={{
             justifyContent: "center",
             position: "relative",
