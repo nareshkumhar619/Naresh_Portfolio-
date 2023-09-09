@@ -5,7 +5,7 @@ import Particals from "../Particles"
 
 import FlashCard from "../../Assets/FlashCard.png";
 import EcommerceApp from "../../Assets/EcommerceApp.png";
-
+import instaclone from "../../Assets/instaclone.png"
 
 function Projects() {
   return (
@@ -43,7 +43,18 @@ function Projects() {
               live="https://naresh-ecommerce.netlify.app/"
             />
           </Col>
-      </Row>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={instaclone}
+              isBlog={false}
+              title="Instaclone"
+              description="Create an account or log in to Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family."
+              techStack="HTML | CSS | JavaScript | React | MongoDb | Express.js | node.js | Git "
+              link="https://github.com/nareshkumhar619/hosted-insta-main/"
+              live="https://myhosted-insta.cyclic.app/"
+            />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
