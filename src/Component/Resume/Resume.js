@@ -23,12 +23,16 @@ function ResumeNew() {
         <Particles />
         <div
           style={{
-            justifyContent: "center",
+            justifyContent: "center",      
             position: "relative",
           }}
         >
-  </div>
-       <div
+  </div>               
+        <Container className="resume">
+          <h3>Click on Download To Get My Resume</h3>
+        </Container>
+
+        <div
           style={{
             justifyContent: "center",
             position: "relative",
