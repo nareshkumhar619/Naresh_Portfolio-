@@ -11,6 +11,8 @@ import {
 import { ImHtmlFive, ImCss3 } from "react-icons/im";
 import { FaBootstrap } from "react-icons/fa";
 import { SiWebpack } from "react-icons/si";
+import {SiTypescript} from "react-icons/si"
+import {TbBrandNextjs} from "react-icons/tb"
 
 function Techstack() {
   return (
@@ -44,6 +46,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandNextjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
     </Row>
   );

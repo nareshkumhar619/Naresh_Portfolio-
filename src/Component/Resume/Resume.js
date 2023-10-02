@@ -5,10 +5,10 @@ import Particles from "../Particles"
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Nresume from "../../Assets/Nresume.pdf";
+import Naresh1 from "../../Assets/Naresh1.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resume = Nresume;
+const resume = Naresh1;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
